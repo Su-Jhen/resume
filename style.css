@@ -74,7 +74,7 @@ h2 {
   text-align: right;
 }
 
-nav, #me {
+nav, .me {
   background: #000;
   color: #d1d1d1;
 }
@@ -105,11 +105,11 @@ nav ul a:hover {
   color: #00ffa3;
 }
 
-#me .container {
+.me .container {
   padding: 4.5rem 0;
 }
 
-#me a:hover {
+.me a:hover {
   box-shadow: 0px 0px 16px 3px rgba(255, 255, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -123,14 +123,14 @@ nav ul a:hover {
   font-size: 8rem;
 }
 
-#intr {
+.intr {
   background: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png') no-repeat center / cover;
   color: #fff;
   font-size: 1.5rem;
   padding: 10rem 0;
 }
 
-#intr h2 {
+.intr h2 {
   color: #fff;
 }
 
@@ -150,11 +150,11 @@ nav ul a:hover {
   margin-right: 0;
 }
 
-#about {
+.about {
   padding: 10rem 0;
 }
 
-#about h2 {
+.about h2 {
   margin-bottom: 2.25rem;
 }
 
@@ -191,7 +191,7 @@ nav ul a:hover {
   font-size: 1.25rem;
 }
 
-#contact {
+.contact {
   background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
   color: #fff;
   padding: 6rem 0;
@@ -263,7 +263,7 @@ nav ul a:hover {
 } */
 
 
-#projects {
+.projects {
   padding: 10rem 0;
 }
 
@@ -273,7 +273,7 @@ nav ul a:hover {
   margin-bottom: 1rem;
 }
 
-#projects a:hover {
+.projects a:hover {
   box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
