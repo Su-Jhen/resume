@@ -127,3 +127,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+img {
+  vertical-align: middle;
+  min-width: 100%;
+  height: auto;
+}
+
+/* 全域 border box */
+*,*::before,*::after {
+  block-size: border-box;
+}
