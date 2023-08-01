@@ -1,16 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
-img {
-  vertical-align: middle;
-}
-
-/* * {
-  box-sizing: content-box;
-} */
-
 body {
   font-family: 'Bruno Ace SC', cursive;
-  font-weight: 400;
   line-height: 1.5;
   background: #fff;
   color: #15161D;
@@ -21,10 +12,13 @@ h2 {
   color: #000;
 }
 
+nav, .me, .intr, .about, .contact, .projects, .footer {
+  max-width: 100%;
+}
+
 .container {
+  margin: 0 auto;
   width: 1296px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .d-flex {
@@ -84,14 +78,8 @@ nav ul{
 }
 
 nav ul li {
-  width: 306px;
   margin-top: 2.5rem;
   /* margin-right: 61px; */
-}
-
-nav ul li:last-child {
-  margin-right: 0;
-  text-align: right;
 }
 
 nav ul a {
@@ -133,12 +121,20 @@ nav ul a:hover {
   color: #fff;
 }
 
+.intr-content {
+  width: 526px;
+}
+
 .intr-content li {
   margin-right: 1rem;
 }
 
 .intr-content li:last-child {
   margin-right: 0;
+}
+
+.intr-img {
+  width: 746px;
 }
 
 .intr-img img {
@@ -162,7 +158,7 @@ nav ul a:hover {
   width: 526px;
 }
 
-.about-list ul {
+.about-list ol {
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
@@ -208,6 +204,7 @@ nav ul a:hover {
   margin-right: 1.25rem;
   width: 162px;
   height: 162px;
+  background-size: 162px 162px;
 }
 
 .contact-icon li:last-child {
@@ -216,51 +213,19 @@ nav ul a:hover {
 
 .contact-icon li:nth-child(1) {
   background: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/discord.png'), transparent 50% / cover no-repeat;
-  background-size: 162px 162px;
 }
 .contact-icon li:nth-child(2) {
   background: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/instagram.png'), transparent 0% / cover no-repeat;
-  background-position: -5px -5px;
-  background-size: 180px 180px;
 
 }
 .contact-icon li:nth-child(3) {
   background: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/message.png'), transparent 0% / cover no-repeat;
-  background-position: -5px -5px;
-  background-size: 180px 180px;
 }
 
 .contact-icon li:hover {
   border-radius: 40px;
   box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
-
-
-/* .contact-icon img:hover {
-  border-radius: 40px;
-  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.contact-icon img {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.contact-icon img {
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.contact-icon .discord {
-  box-sizing: content-box !important;
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
-} */
-
 
 .projects {
   padding: 10rem 0;
@@ -289,4 +254,12 @@ footer {
 
 .mb-1 {
   margin-bottom: 1.75rem;
+}
+
+.project-img {
+  width: 416px;
+}
+
+.project-content {
+  width: 856px;
 }
